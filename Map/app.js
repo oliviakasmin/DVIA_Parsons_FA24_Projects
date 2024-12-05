@@ -2,7 +2,7 @@
 import * as d3 from "d3";
 import "leaflet";
 import "leaflet.markercluster";
-import "leaflet.heat/dist/leaflet-heat.js";
+import "./leaflet-heat.js";
 
 const palette = [
 	"#e69c53", // orange -  hawaii
