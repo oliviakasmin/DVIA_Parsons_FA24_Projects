@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.12/latin.css");
+
+body {
+	background: black;
+	color: white;
+	font-family: "Lato", sans-serif;
+	padding: 60px;
+}
+
+a {
+	color: #666666;
+}
+
+main {
+	padding: 30px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.bar-chart-svg {
+	background-color: black;
+	border: 2.5px solid #303030;
+}
+
+svg {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+@keyframes shake {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-5px);
+	}
+	50% {
+		transform: translateX(5px);
+	}
+	75% {
+		transform: translateX(-5px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+.rat-sighting:hover {
+	animation: shake 0.25s;
+}
+
+.tooltip {
+	position: absolute;
+	background-color: rgba(50, 50, 50, 0.8); /* Dark grey with 80% opacity */
+	padding: 5px;
+	border-radius: 5px;
+	pointer-events: none;
+	visibility: hidden;
+	color: white;
+	width: 100px;
+	text-overflow: wrap;
+}
+
+.legend-text {
+	font-size: 12px;
+	fill: white;
+	&:hover {
+		font-size: 12.5px;
+	}
+}
