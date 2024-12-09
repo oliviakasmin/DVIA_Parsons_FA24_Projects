@@ -1,6 +1,3 @@
-import "./style.css";
-import * as d3 from "d3";
-
 const pinkBackground = "#eab69f";
 
 // palette for hour telling loom strings
